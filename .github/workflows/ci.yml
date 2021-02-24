@@ -398,7 +398,8 @@ jobs:
           unset IFS
           ./b2 -j3 libs/graph/test toolset=$TOOLSET cxxstd=$CXXSTD
 
-          fi# 
+          fi
+# 
 #   osx:
 #     strategy:
 #       fail-fast: false
